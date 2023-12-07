@@ -1,0 +1,33 @@
+.allProjects>div .layer{
+height: 90%;
+width: 95%;
+}
+.navForTab  li{
+    cursor: pointer;
+}
+.navForTab li a{
+    position: relative;
+    transition: .2s all ease-in;
+    opacity: 1;
+}
+
+.navForTab li a::after{
+    content:" ";
+    position: absolute;
+    width: 0%;
+    height: 1.5px;
+    
+    background-color: #050505;
+    bottom: -10px;
+    left: 0;
+    transition: .2s all ease-in;
+    
+    
+} 
+
+.navForTab li a:hover::after{
+    width: 100%;
+}
+.navForTab li a:hover{
+    opacity: .8;
+}

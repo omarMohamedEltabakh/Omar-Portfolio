@@ -1,0 +1,54 @@
+.home {
+    background-image: linear-gradient(rgba(0 0 0 /50%), rgba(0 0 0 /50%)), url(../../Assets/images/backgroundImage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.home>div {
+    height: 100vh;
+
+}
+
+.home div h2::after {
+    content: " ";
+    animation: move 2s infinite;
+   
+}
+@keyframes move{
+    0%{
+        content: "|";
+    }
+    10%{
+        content: "|";
+    }
+    20%{
+        content: "o|";
+    }
+   30%{
+        content: "Om|";
+    }
+    40%{
+        content: "Oma|";
+    }
+    50%{
+        content: "Omar|";
+    }
+    60%{
+        content: "Omar|";
+    }
+    70%{
+        content: "Oma|";
+    }
+    80%{
+        content: "Om|";
+    }
+    90%{
+        content: "O|";
+    }
+    100%{
+        content: "|";
+    }
+    
+}
